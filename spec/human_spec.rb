@@ -3,7 +3,7 @@ RSpec.describe Human do
         it 'returns size' do
           expect(described_class.new.send(:salaries).size).to eq 6
         end
-      end
+    end
     
     context '#average_salary method' do
       before do
@@ -14,4 +14,4 @@ RSpec.describe Human do
         expect(described_class.new.average_salary).to eq 5
       end
     end
-  end
+end
